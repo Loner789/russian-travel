@@ -1,0 +1,14 @@
+.header__links {
+    width: 77px;
+    /* Кажется, что можно лучше, но не понятно, как... */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+}

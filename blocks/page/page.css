@@ -1,32 +1,15 @@
-@media screen and (min-width: 1280px) {
-    .page {
-        width: calc(100% - 48px*2);
-        margin: 0;
-        font-family: 'Inter';
-        background-color: #2A2C2F;
-        color: #fff;
-        padding: 0 48px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .page {
-        width: 100%;
-        margin: 0;
-        font-family: 'Inter';
-        background-color: #2A2C2F;
-        color: #fff;
-        padding: 0 48px;
-    }
+.page {
+    width: calc(100% - 48px*2);
+    margin: 0;
+    font-family: 'Inter';
+    background-color: #2A2C2F;
+    color: #fff;
+    padding: 0 48px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .page {
         width: 100%;
-        margin: 0;
-        font-family: 'Inter';
-        background-color: #2A2C2F;
-        color: #fff;
         padding: 0;
     }
 }
@@ -34,10 +17,6 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .page {
         width: 100%;
-        margin: 0;
-        font-family: 'Inter';
-        background-color: #2A2C2F;
-        color: #fff;
         padding: 0;
     }
 }

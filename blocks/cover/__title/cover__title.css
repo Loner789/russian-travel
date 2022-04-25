@@ -6,3 +6,14 @@
     line-height: 76px;
     font-weight: 900;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .cover__title {
+        width: 250px;
+        /* В макете width: 288px, но в таком случае
+         фраза переносится криво*/
+        padding: 0 0 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

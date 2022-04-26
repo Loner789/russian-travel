@@ -1,6 +1,6 @@
 .cover__title {
     max-width: 560px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 0 32px;
     font-size: 72px;
     line-height: 76px;
@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .cover__title {
-        width: 250px;
+        max-width: 250px;
         /* В макете width: 288px, но в таком случае
          фраза переносится криво*/
         padding: 0 0 16px;

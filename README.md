@@ -11,3 +11,5 @@ ___
 ___
 
 **Приятного просмотра!**
+
+[Ссылка на проект](https://loner789.github.io/russian-travel/index.html)

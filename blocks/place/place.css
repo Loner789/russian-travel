@@ -38,9 +38,6 @@
     .place {
         width: 100%;
         display: grid;
-        /* grid-template-columns: 1fr 1fr; */
-        /*Для дизайнерских размеров, но тогда адаптивность хуже
-        grid-template-columns: min-content 1fr; */
         align-items: start;
         gap: 50px;
     }

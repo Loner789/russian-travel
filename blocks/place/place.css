@@ -1,5 +1,4 @@
 .place {
-    width: 100%;
     display: grid;
     grid-template-columns: 460px minmax(484px, max-content);
     grid-template-rows: repeat(2, min-content);

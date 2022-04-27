@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .footer__links {
-        padding: 0 0 48px;
+        padding-bottom: 48px;
         grid-template-columns: auto;
         grid-template-rows: min-content;
         gap: 32px;

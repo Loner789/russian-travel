@@ -1,0 +1,33 @@
+.comments__container {
+    display: grid;
+    gap: 19px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 72px;
+}
+
+@media screen and (max-width: 1279px) {
+    .comments__container {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .comments__container {
+        grid-template-columns: 1fr;
+        padding-right: 193px;
+        padding-left: 193px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .comments__container {
+        padding: 48px 16px 0;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .comments__container {
+        padding: 40px 16px 0;
+    }
+}

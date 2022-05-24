@@ -1,5 +1,5 @@
 .places {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     padding: 0 100px;
     display: grid;
     gap: 80px;
